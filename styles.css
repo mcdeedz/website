@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin:0;
+    text-align: center;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-name{
+    margin-top: 0;
+    margin:20px auto 0 auto;
+    font-size: 80px;
+    font-family: 'Courgette', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+.programmer{
+    font-size: 2.5rem;
+    color: #66BFBF;
+   display:block;
+
+}
+.pro{
+    font-size: 2.5rem;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    display: inline-block;   
+
+}
+
+.top-container{
+
+padding: 50px;
+margin: 0px auto 70px auto;
+position: releative;
+background-color: antiquewhite;
+}
+
+
+
+.pro{
+    text-decoration: underline;
+
+}
+
+.bottom-cloud{
+    position: relative;
+
+}
+
+
+.top-cloud{
+    position: relative;
+    left: 150px;
+    top: 0px;
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: antiquewhite;
+}
+
+.skill-cells{
+color: #11999E;
+
+
+}
+
+h2{
+font-weight:bolder;
+color: #11999E;
+font-size: 250%
+
+}
+
+.skill-img1{
+
+    height: 70px;
+    width: 70px;
+    background-color: antiquewhite;
+    margin:10px;
+
+}
+
+.skill-div-1{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    float: left;
+    border-radius: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.skill-img2{
+
+    height: 70px;
+    width: 70px;
+    background-color: antiquewhite;
+    margin:10px;
+}
+
+.skill-div-2{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    float: right;
+    border-radius: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.skill-row{
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height:150%;
+}
+
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+.profile-p{
+    color: #40514E;
+    line-height: 150%;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 7px 0 0 0;
+    width: 10%;
+    border-color: grey;
+    margin: 100px auto 100px auto;
+}
+.drop-message{
+    font-weight: bold;
+    color: #11999E;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .button{
+    margin: 100px auto 50px auto;
+  }
+
+  .bottom-container{
+    height: 150px;
+    background-color: antiquewhite;
+  }
+  .footer-link{
+    color: #30e3cb;
+    text-decoration: none;
+  }
+
+  .footer-box{
+    padding: 30px;
+    background-color: antiquewhite;
+  }
+
+.copyright{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.contact-me{
+   position: relative;
+}
+
