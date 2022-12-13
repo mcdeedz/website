@@ -51,12 +51,16 @@ background-color: antiquewhite;
 
 .bottom-cloud{
     position: relative;
+    height: 100px;
+    width: 100px;
 
 }
 
 
 .top-cloud{
     position: relative;
+    height: 100px;
+    width: 100px;
     left: 150px;
     top: 0px;
 }
