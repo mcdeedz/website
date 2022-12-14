@@ -8,79 +8,86 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+.top-container{
+    height: 400px;
+    width: 90%;
+    margin: 0 auto 30px 0;
+    position: relative;
+    background-color: antiquewhite;
+    padding: 20px auto 20px;
+    display: inline-block;
+    
+    }
+
 .top-name{
-    margin-top: 0;
-    margin:20px auto 0 auto;
+    margin:auto;
     font-size: 70px;
     font-family: 'Homemade Apple', cursive;
     color: #66BFBF;
     line-height: 2;
 }
 
-.programmer{
-    font-size: 2.5rem;
-    color: #66BFBF;
-   display:block;
 
-}
-.pro{
-    font-size: 2.5rem;
+.top-code-icon{
 
-}
-.box{
-    height: 200px;
-    width: 200px;
-    display: inline-block;   
-
-}
-
-.top-container{
-
-padding: 100px;
-margin: 0px auto 70px auto;
-position: relative;
-background-color: antiquewhite;
-
-}
-
-
-
-.pro{
-    text-decoration: underline;
-
-
-}
-
-
-.top-cloud{
-
-    right: 170px;
-    top: 0px;
+    display:inline;
     color: grey;
     font-size: 80px !important;
     margin: 0px;
-    float: right;
     color: #66BFBF;
+    right: 300px;
+    position: relative;
 }
-.bottom-cloud{
+
+
+.bottom-code-icon{
     left:180px;
     color: grey;
     font-size: 80px !important;
-    float: left;
     margin:0px;
     color: #66BFBF;
+    left: 300px;
+    position: relative;
+
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48,
+  
+  }
+  
+  .programmer{
+    font-size: 2.5rem;
+    color: #66BFBF;
+   display:block;
+   margin: auto;
 
+}
+.pro-underlined{
+    font-size: 2.5rem;
+    text-decoration: underline;
 
-
-
+}
 
 .profile{
     height: 200px;
     width: 200px;
     border-radius: 100%;
     background-color: antiquewhite;
+}
+
+
+.profile-paragraph{
+    color: #40514E;
+    line-height: 150%;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
 }
 
 .skill-cells{
@@ -95,6 +102,19 @@ color: #11999E;
 font-size: 250%
 
 }
+
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height:150%;
+}
+
 
 .skill-img1{
 
@@ -135,25 +155,7 @@ font-size: 250%
     padding: 10px;
 }
 
-.skill-row{
-    width: 70%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height:150%;
-}
 
-.skills{
-    width: 80%;
-    margin: auto;
-}
-
-.profile-p{
-    color: #40514E;
-    line-height: 150%;
-    font-weight: bold;
-    width: 50%;
-    margin: auto;
-}
 
 hr{
     border-style: dotted;
@@ -166,6 +168,10 @@ hr{
     font-weight: bold;
     color: #11999E;
 }
+
+.button{
+    margin: 100px auto 50px auto;
+  }
 
 .btn {
     background: #11cdd4;
@@ -193,9 +199,7 @@ hr{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  .button{
-    margin: 100px auto 50px auto;
-  }
+
 
   .bottom-container{
     height: 150px;
@@ -211,23 +215,16 @@ hr{
     background-color: antiquewhite;
   }
 
+
+.contact-me{
+    position: relative;
+ }
+ 
+
 .copyright{
     color: white;
     font-weight: bolder;
 }
 
 
-.contact-me{
-   position: relative;
-}
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48,
-
-}
 
