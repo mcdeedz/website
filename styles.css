@@ -6,7 +6,7 @@ body{
     text-align: center;
     background-color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 
 
@@ -23,7 +23,7 @@ body{
 
 .top-name{
     margin:auto;
-    font-size: 70px;
+    font-size: 80px;
     font-family: 'Homemade Apple', cursive;
     color: #66BFBF;
     line-height: 2;
@@ -76,10 +76,11 @@ body{
 }
 
 .profile{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
     background-color: antiquewhite;
+    margin-bottom: 30px;
 }
 
 
